@@ -1,0 +1,15 @@
+.footer__inner {
+    li {
+        display: flex;
+        flex-direction: column;
+        &::after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: #FFF;
+        }
+        &:last-of-type {
+            height: 0px;
+        }
+    }
+}

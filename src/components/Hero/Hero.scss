@@ -1,0 +1,22 @@
+.live {
+    display: block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+    animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
