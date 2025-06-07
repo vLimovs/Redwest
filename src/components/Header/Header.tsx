@@ -7,9 +7,9 @@ const Header = () => {
                 <img src={Logo} className='header__logo w-[65px] h-[65px]' alt="" />
                 <ul className="header__nav-list flex text-white flex-1 justify-center">
                     <div className="flex gap-5">
-                        <li><a href="#">Группа VK</a></li>
-                        <li><a href="#">Как начать играть?</a></li>
-                        <li><a href="#">Дискорд</a></li>
+                        <li><a target="_blank" href="https://vk.com/redwestrp">Группа VK</a></li>
+                        <li><a href="#playnow">Как начать играть?</a></li>
+                        <li><a target="_blank" href="https://discord.gg/Fwv5vaf3hh">Дискорд</a></li>
                         <li><a href="#">Магазин</a></li>
                     </div>
                 </ul>

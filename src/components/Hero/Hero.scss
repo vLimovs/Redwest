@@ -20,3 +20,23 @@
         opacity: 0.1;
     }
 }
+
+.blinking-cursor {
+    margin-left: 25px;
+    font-weight: 100;
+    font-size: 100px;
+    color: white;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
