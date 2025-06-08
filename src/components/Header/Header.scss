@@ -1,4 +1,5 @@
 .header {
+
     z-index: 999;
     position: fixed;
     width: 100%;
@@ -7,9 +8,15 @@
     box-shadow: inset 0 4px 25px 0 rgba(0, 0, 0, 0.25);
     background: rgba(0, 0, 0, 0.29);
     border-bottom: 1px solid #b20000;
+    transition: .3s !important;
+
 
     &__nav {
+        transition: .5s !important;
+        height: 110px;
+
         &-list {
+
             div {
                 border: 3px solid #980000;
                 border-radius: 50px;
@@ -38,5 +45,8 @@
             }
         }
 
+        .burger {
+            display: none;
+        }
     }
 }

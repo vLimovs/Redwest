@@ -54,11 +54,11 @@ const Hero = () => {
                 </ModalWindow>
             )}
             <main
-                className="main my-container mt-[324px] mb-[243px] relative"
+                className="main my-container mt-[224px] mb-[150px] relative"
                 style={{ textShadow: '3px 4px 1px #000000' }}
             >
                 <div className="main__content text-white">
-                    <div className="main__content-top flex items-end">
+                    <div className="main__content-top flex items-end justify-between flex-wrap">
                         <div>
                             <h1 className="text-[35px] font-[Lino]">НОВЫЙ МИР В RDR2 С РЕЖИМОМ</h1>
                             <h1 className="roleplay text-[100px] font-[Lino] m-w-[833px] h-[160px]">
@@ -66,7 +66,7 @@ const Hero = () => {
                                 <span className="blinking-cursor">|</span>
                             </h1>
                         </div>
-                        <img className="absolute right-14 top-[-35px]" src={Character} alt="" />
+                        <img className="mr-[200px]" src={Character} alt="" />
                     </div>
 
                     <div className="main__content-bottom flex flex-wrap font-[Lino] gap-[90px] text-[16px]">

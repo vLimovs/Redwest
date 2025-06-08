@@ -1,0 +1,71 @@
+@media (max-width: 1300px) {
+    .media__section-blocks {
+        flex-direction: column !important;
+        gap: 25px !important;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .title {
+        font-size: 35px !important;
+
+        &::before,
+        &::after {
+            width: 35px !important;
+            height: 35px !important;
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    .header__nav {
+        &.active {
+            height: 250px;
+            ul div li {
+                    transition: .5s ease-in;
+                    opacity: 1;
+            }
+        }
+
+        ul {
+            visibility: hidden;
+            &.active {
+                display: flex;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            div {
+                border: none;
+                flex-direction: column;
+
+                li {
+                    text-align: center;
+                    
+                    opacity: 0;
+                    ::after {
+                        content: '' !important;
+                        width: 0px !important;
+                    }
+                }
+
+
+            }
+
+        }
+
+        .burger {
+            display: block;
+        }
+
+    }
+}
+
+@media (max-width: 440px) {
+        .play__section-download-card-footer {
+            a {
+                padding: 5px;
+            }
+        }
+}

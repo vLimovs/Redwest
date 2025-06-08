@@ -70,7 +70,7 @@ const PlaySection = () => {
                 </div>
                 <button style={{
                     textShadow: '3px 4px 1px #000000'
-                }} className="btn mt-[62px] rounded-[50px] py-[25px] px-[20px] font-[Lino] font-regular text-[20px]" onClick={() => setNavigation(true)}><i className="fa-solid fa-location-dot mr-2"></i>НАВИГАЦИЯ ПО СЕРВЕРУ</button>
+                }} className="btn btn-playsection mt-[62px] rounded-[50px] py-[25px] px-[20px] font-[Lino] font-regular text-[20px]" onClick={() => setNavigation(true)}><i className="fa-solid fa-location-dot mr-2"></i>НАВИГАЦИЯ ПО СЕРВЕРУ</button>
             </section>
         </>
 

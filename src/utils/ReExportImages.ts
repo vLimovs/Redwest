@@ -1,5 +1,4 @@
 export { default as Logo } from './../assets/images/logo.svg'
-export { default as Roleplay } from './../assets/images/roleplay-text.png'
 export { default as Character } from './../assets/images/character.png'
 export { default as NewsCardImg } from './../assets/images/newscard.png'
 export { default as MediaVideo } from './../assets/images/media__video-btn.png'

@@ -37,7 +37,13 @@ body {
 
 .title {
     text-shadow: 3px 4px 1px #000000;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    @media (max-width: 710px) {
+        flex-direction: column;
+    }
     &::before,
     &::after {
         content: '';
@@ -52,3 +58,5 @@ body {
 .btn {
     background: linear-gradient(167deg, #b20000 0%, #4f0000 100%);
 }
+
+@import url(./media.scss);
