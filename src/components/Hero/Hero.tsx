@@ -10,7 +10,7 @@ const Hero = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [wordIndex, setWordIndex] = useState(0);
 
-    const words = ["ROLEPLAY", "LIFE RP", "WILD WEST"];
+    const words = ["ROLEPLAY", "LIFE RP"];
 
     useEffect(() => {
         const currentWord = words[wordIndex];
@@ -46,7 +46,6 @@ const Hero = () => {
                         height="90%"
                         src="https://www.youtube.com/embed/LOxqX3QwWis?si=0d_ZlMxXhho1K7E8"
                         title="YouTube video player"
-                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"
                         allowFullScreen
@@ -55,21 +54,20 @@ const Hero = () => {
             )}
             <main
                 className="main my-container mt-[224px] mb-[150px] relative"
-                style={{ textShadow: '3px 4px 1px #000000' }}
-            >
-                <div className="main__content text-white">
-                    <div className="main__content-top flex items-end justify-between flex-wrap">
+                style={{ textShadow: '3px 4px 1px #000000' }}>
+                <div className="main__content text-white flex flex-col justify-center items-center">
+                    <div className="main__content-top flex items-end flex-wrap w-[80%] justify-between">
                         <div>
                             <h1 className="text-[35px] font-[Lino]">НОВЫЙ МИР В RDR2 С РЕЖИМОМ</h1>
-                            <h1 className="roleplay text-[100px] font-[Lino] m-w-[833px] h-[160px]">
+                            <h1 className="roleplay text-[100px] font-[Lino] w-full">
                                 {text}
                                 <span className="blinking-cursor">|</span>
                             </h1>
                         </div>
-                        <img className="mr-[200px]" src={Character} alt="" />
+                        <img className="" src={Character} alt="" />
                     </div>
 
-                    <div className="main__content-bottom flex flex-wrap font-[Lino] gap-[90px] text-[16px]">
+                    <div className="main__content-bottom flex items-center w-[80%] font-[Lino] gap-[90px] text-[16px] mt-5">
                         <a className="btn py-[15px] px-[30px] font-[Lino] rounded-[50px] text-[20px]" href="#playnow">
                             НАЧАТЬ ИГРАТЬ <i className="fa-solid fa-arrow-right"></i>
                         </a>

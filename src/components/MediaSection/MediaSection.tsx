@@ -23,7 +23,7 @@ const MediaSection = () => {
                     }}
                         href="#" className="absolute bottom-0 btn w-[166px] h-[54px] flex items-center justify-center gap-1 font-[montserrat] rounded-[50px] font-semibold text-[16px] left-[25%] ">Открыть</a>
                 </article>
-                <img src={MediaScreens} alt="" className="cursor-pointer" />
+                <img src={MediaScreens} alt="" className="cursor-pointer mt-10" />
             </div>
         </section>
     )

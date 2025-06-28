@@ -3,6 +3,10 @@
         flex-direction: column !important;
         gap: 25px !important;
     }
+
+    .main__content-top {
+        justify-content: center !important;
+    }
 }
 
 
@@ -22,14 +26,18 @@
     .header__nav {
         &.active {
             height: 250px;
+
             ul div li {
-                    transition: .5s ease-in;
-                    opacity: 1;
+                transition: .5s ease-in;
+                opacity: 1;
             }
         }
 
+
+
         ul {
             visibility: hidden;
+
             &.active {
                 display: flex;
                 opacity: 1;
@@ -42,8 +50,9 @@
 
                 li {
                     text-align: center;
-                    
+
                     opacity: 0;
+
                     ::after {
                         content: '' !important;
                         width: 0px !important;
@@ -60,12 +69,26 @@
         }
 
     }
+
+    .roleplay {
+        font-size: 50px !important;
+    }
 }
 
 @media (max-width: 440px) {
-        .play__section-download-card-footer {
-            a {
-                padding: 5px;
-            }
+    .play__section-download-card-footer {
+        a {
+            padding: 5px;
         }
+    }
+}
+
+@media (max-width: 915px) {
+    .main__content-bottom {
+        flex-direction: column;
+        gap: 40px !important;
+    }
+    .footer__inner {
+        flex-direction: column;
+    }
 }

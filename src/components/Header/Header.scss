@@ -26,7 +26,12 @@
                     a {
                         font-family: var(--font-family);
                         font-weight: 600;
+                        transition: .3s;
                         text-align: center;
+
+                        &:hover {
+                            color: #ff8181;
+                        }
                     }
 
                     ::after {
